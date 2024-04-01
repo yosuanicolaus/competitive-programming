@@ -34,4 +34,6 @@
 # 240331
 .vscode/
 .cph/
-test.cpp
+test
+test*.cpp
+temp/
