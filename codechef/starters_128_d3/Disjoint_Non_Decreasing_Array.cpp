@@ -31,10 +31,8 @@ void solve() {
                         return;
                     }
                     ll new_minpath = nums[j - 1] - nums[j];
-                    ll new_maxpath =
-                        (j + 1 < n) ? nums[j + 1] - nums[j] : pow(10, 9) + 1;
-                    if (new_maxpath < new_minpath || new_minpath > maxpath ||
-                        new_maxpath < minpath) {
+                    ll new_maxpath = (j + 1 < n) ? nums[j + 1] - nums[j] : pow(10, 9) + 1;
+                    if (new_maxpath < new_minpath || new_minpath > maxpath || new_maxpath < minpath) {
                         cout << "No" << endl;
                         return;
                     }
