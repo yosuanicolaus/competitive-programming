@@ -8,7 +8,12 @@ using namespace std;
 using ll = long long;
 
 void solve() {
-    /* ~ good luck! ~ */
+    int p1, p2, p3, p4;
+    cin >> p1 >> p2 >> p3 >> p4;
+
+    int ans = p1 / 2 + p2 / 2 + p3 / 2 + p4 / 2;
+    ans += ((p1 % 2) & (p2 % 2) & (p3 % 2));
+    cout << ans << '\n';
 }
 
 int main() {
