@@ -1,14 +1,15 @@
 #if LOCAL
 #include "template/debug.h"
-#else
+#else /*©[yosuanicolaus]©*/
 #define d(...)
 #endif
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
 
-void solve() {
+auto solve() {
     /* ~ good luck! ~ */
+    return 42;
 }
 
 int main() {
@@ -17,6 +18,6 @@ int main() {
     int t;
     cin >> t;
     while (t--)
-        solve();
+        cout << solve() << '\n';
     return 0;
 }
