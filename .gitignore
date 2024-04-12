@@ -37,3 +37,8 @@
 test
 test*.cpp
 temp/
+
+# 240411
+.idea/
+CMakeLists.txt
+cmake-build-debug/

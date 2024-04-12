@@ -27,9 +27,9 @@ auto solve() {
         }
         bool found = false;
         for (int i = 1; i < len; i++) {
-            string first_word = str.substr(0, i);
-            string second_word = str.substr(i, 8);
-            if (setstr.count(first_word) && setstr.count(second_word)) {
+            string s1 = str.substr(0, i);
+            string s2 = str.substr(i, 8);
+            if (setstr.count(s1) && setstr.count(s2)) {
                 ans += '1';
                 found = true;
                 break;
@@ -37,7 +37,6 @@ auto solve() {
         }
         if (!found) ans += '0';
     }
-
     return ans;
 }
 

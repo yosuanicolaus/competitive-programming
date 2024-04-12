@@ -8,8 +8,15 @@ using namespace std;
 using ll = long long;
 
 auto solve() {
-    /* ~ good luck! ~ */
-    return 42;
+    int n, m, k;
+    cin >> n >> m >> k;
+    int most_color_count = n / m;
+    if (n % m > 0) most_color_count++;
+    int need_min_k = n - most_color_count;
+    if (need_min_k > k)
+        return "YES";
+    else
+        return "NO";
 }
 
 int main() {

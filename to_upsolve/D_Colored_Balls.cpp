@@ -8,16 +8,20 @@ using namespace std;
 using ll = long long;
 
 auto solve() {
-    /* ~ good luck! ~ */
+    int n;
+    cin >> n;
+    vector<int> arr(n);
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+    sort(arr.begin(), arr.end());
+    d(arr);
     return 42;
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int t;
-    cin >> t;
-    while (t--)
-        cout << solve() << '\n';
+    cout << solve() << '\n';
     return 0;
 }
