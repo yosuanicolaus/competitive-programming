@@ -8,8 +8,17 @@ using namespace std;
 using ll = long long;
 
 auto solve() {
-    /* ~ good luck! ~ */
-    return 42;
+    int n;
+    cin >> n;
+    unordered_set<int> seen;
+    int dup_count = 0;
+    for (int i = 0; i < n; i++) {
+        int a;
+        cin >> a;
+        if (seen.count(a)) dup_count++;
+        seen.insert(a);
+    }
+    return dup_count;
 }
 
 int main() {
