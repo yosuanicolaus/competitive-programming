@@ -11,6 +11,7 @@ Repository to track my solutions to competitive programming problems
 - [LeetCode](https://leetcode.com/yosuanicolaus/)
 - [CodinGame](https://www.codingame.com/profile/71c149c76b94bec9b150101490dc10a27269964)
 <!-- - -->
+- [HackerRank](https://www.hackerrank.com/profile/cryodawn257)
 - [Project Euler](https://projecteuler.net/progress=yosuanicolaus)
 - [Kattis](https://open.kattis.com/users/yosuanicolaus)
 - [SPOJ](https://www.spoj.com/users/yosuanicolaus/)
@@ -31,6 +32,7 @@ Repository to track my solutions to competitive programming problems
 - [USACO Previous Contests](https://usaco.org/index.php?page=contests)
 <!-- - -->
 - [Advent of Code](https://adventofcode.com/)
+- [Project Euler+](https://www.hackerrank.com/contests/projecteuler/challenges)
 - [Project Euler Archives](https://projecteuler.net/archives)
 - [CSES Problem Set](https://cses.fi/problemset/list/)
 - [TLX Basic](https://tlx.toki.id/courses/competitive)
