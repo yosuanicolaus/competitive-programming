@@ -1,5 +1,4 @@
-#include "../template/debug.h"
-#include <bits/stdc++.h>
+#include <debug.h>
 using namespace std;
 using ll = long long;
 

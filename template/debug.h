@@ -185,4 +185,4 @@ template <typename T, typename... V> void printerArr(const char *names, T arr[],
 #define dbg(...) std::cerr << __LINE__ << ": [", __DEBUG_UTIL__::printer(#__VA_ARGS__, __VA_ARGS__)
 
 // 240405 - always use std::array instead of builtin array to prevent decays
-// #define debugArr(...) std::cerr << __LINE__ << ": [", __DEBUG_UTIL__::printerArr(#__VA_ARGS__, __VA_ARGS__)
+#define dbga(...) std::cerr << __LINE__ << ": [", __DEBUG_UTIL__::printerArr(#__VA_ARGS__, __VA_ARGS__)
