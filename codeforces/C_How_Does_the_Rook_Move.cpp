@@ -8,17 +8,6 @@ using ll = long long;
 ll memo[300001];
 const int MODINT = 1000000007;
 
-ll moves(int n) {
-    if (n == 1) return n;
-    if (n == 2) return 3;
-    if (memo[n] != -1) return memo[n];
-
-    ll ans = moves(n - 1) + (n - 1) * 2 * moves(n - 2);
-    ans %= MODINT;
-    memo[n] = ans;
-    return ans;
-}
-
 auto solve() {
     int n, k;
     cin >> n >> k;
@@ -32,13 +21,18 @@ auto solve() {
             n -= 2;
     }
 
-    return moves(n);
+    memo[0] = memo[1] = 1;
+    memo[2] = 3;
+    for (int i = 3; i <= n; i++) {
+        memo[i] = memo[i - 1] + 2 * (i - 1) * memo[i - 2];
+        memo[i] %= MODINT;
+    }
+    return memo[n];
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    memset(memo, -1, sizeof(memo));
     int t = 1;
     cin >> t;
     while (t--)

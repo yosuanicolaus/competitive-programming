@@ -27,6 +27,7 @@ struct Sample {
     int carried_by;
     int cost_a, cost_b, cost_c, cost_d, cost_e;
     int health;
+    bool diagnosed;
 
     int total_cost() const {
         return cost_a + cost_b + cost_c + cost_d + cost_e;
@@ -109,7 +110,7 @@ int main() {
             cin.ignore();
 
             if (first_turn) {
-                Sample smp = {sample_id, carried_by, cost_a, cost_b, cost_c, cost_d, cost_e, health};
+                Sample smp = {sample_id, carried_by, cost_a, cost_b, cost_c, cost_d, cost_e, health, false};
                 available_samples.push_back(smp);
             }
             if (carried_by == 1) { // taken by opponent

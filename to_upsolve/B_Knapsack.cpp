@@ -7,11 +7,10 @@ using ll = long long;
 
 // TLX basic - 07/B
 // https://tlx.toki.id/courses/competitive/chapters/07/problems/B/
-// prev submission: 71% (5 AC, 2 WA) ~ why???
 
 // dp [item] [capacity]
-const int K = 5, C = 37; // just for better debugging
-// const int K = 101, C = 2001;
+// const int K = 5, C = 37;
+const int K = 101, C = 2001;
 int dp[K][C];
 int weights[K];
 int values[K];
@@ -34,6 +33,9 @@ auto solve() {
     }
 
     int i = stone, j = capacity;
+    while (dp[i][j - 1] == dp[i][j])
+        j--;
+
     while (i > 0 && j > 0) {
         if (dp[i][j] != dp[i - 1][j]) {
             selected.push_back(i);
