@@ -5,22 +5,24 @@
 using namespace std;
 using ll = long long;
 
-int dp[500'000'001];
-
 auto solve() {
-    for (int i = 1; i <= 500'000'000; i++) {
-        dp[i] = max(i, dp[i / 2] + dp[i / 3] + dp[i / 4]);
+    int n;
+    cin >> n;
+    vector<int> a(n);
+    ll sum = 0;
+
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+        sum += a[i];
     }
 
-    int n;
-    while (cin >> n) {
-        cout << dp[n] << '\n';
-    }
+    if (sum % 3 != 0) return 0;
+    return 42;
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    solve();
+    cout << solve() << '\n';
     return 0;
 }
