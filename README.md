@@ -50,8 +50,11 @@ Repository to track my solutions to competitive programming problems.
 
 - [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)
 - [Algorithms for Competitive Programming](https://cp-algorithms.com/)
+- [Discrete Mathematics (book)](https://discrete.openmathbooks.org/dmoi3.html)
+- [Runestone](https://runestone.academy/)
 
 #### Tools
 
 - [Contest Calendar](https://clist.by/)
 - [Codeforces Stress Test](https://cfstress.com/)
+- Discord bots: gitgud, gimme, training, ratedvc
