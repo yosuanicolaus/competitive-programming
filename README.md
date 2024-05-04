@@ -9,7 +9,7 @@ Repository to track my solutions to competitive programming problems.
 #### Contests + Problems
 
 - [Codeforces](https://codeforces.com/problemset?order=BY_SOLVED_DESC&tags=1400-) - [profile](https://codeforces.com/profile/yosuanicolaus)
-    - [CLIST Luck 25-50](https://clist.by/problems/?search=&resource=1&luck_from=25&luck_to=50&status=&chart=&sort_order=desc&sort=)
+    - [CLIST Luck 20-80](https://clist.by/problems/?search=&resource=1&luck_from=20&luck_to=80&status=&chart=&sort_order=desc&sort=)
     - [Junior Training Sheet](https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=84654839)
     - [ACD Ladders](https://www.acodedaily.com/)
     - [C2 Ladders](https://c2-ladders-juol.onrender.com/)
