@@ -24,6 +24,7 @@ Repository to track my solutions to competitive programming problems.
 - [SPOJ](https://www.spoj.com/problems/classical/) - [profile](https://www.spoj.com/users/yosuanicolaus/)
 - [Project Euler](https://projecteuler.net/archives) - [profile](https://projecteuler.net/progress=yosuanicolaus)
     - [Project Euler+ (HackerRank)](https://www.hackerrank.com/contests/projecteuler/challenges)
+- [USACO Training](https://usaco.training/)
 
 #### Standard
 
@@ -38,6 +39,7 @@ Repository to track my solutions to competitive programming problems.
 - [Rosalind](https://rosalind.info/problems/list-view/) - [profile](https://rosalind.info/users/yosuanicolaus/)
 - [Advent of Code](https://adventofcode.com/)
 - [CodeAbbey](https://www.codeabbey.com/index/task_list)
+- [MarisaOJ](https://marisaoj.com/) - [profile](https://marisaoj.com/user/yosuanicolaus/submissions)
 
 #### Other Problem Sources
 
