@@ -44,3 +44,5 @@ CMakeLists.txt
 cmake-build-debug/
 
 backup.cpp
+
+*.in

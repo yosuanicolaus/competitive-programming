@@ -54,6 +54,7 @@ Repository to track my solutions to competitive programming problems.
 - [Algorithms for Competitive Programming](https://cp-algorithms.com/)
 - [Discrete Mathematics (book)](https://discrete.openmathbooks.org/dmoi3.html)
 - [Runestone](https://runestone.academy/)
+- [The Ultimate Topic List](https://youkn0wwho.academy/topic-list)
 
 #### Tools
 
