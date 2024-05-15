@@ -46,3 +46,7 @@ cmake-build-debug/
 backup.cpp
 
 *.in
+
+# 240515 atcoder library
+# https://github.com/atcoder/ac-library
+template/atcoder/

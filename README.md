@@ -14,7 +14,8 @@ Repository to track my solutions to competitive programming problems.
     - [ACD Ladders](https://www.acodedaily.com/)
     - [C2 Ladders](https://c2-ladders-juol.onrender.com/)
     - [A2OJ Ladders](https://a2oj.netlify.app/ladders)
-- [AtCoder](https://kenkoooo.com/atcoder#/table/) - [profile](https://atcoder.jp/users/yosuanicolaus)
+    - [CFTracker (contest table)](https://cftracker.netlify.app/contests)
+- [AtCoder](https://kenkoooo.com/atcoder#/table/yosuanicolaus) - [profile](https://atcoder.jp/users/yosuanicolaus)
 - [CodeChef](https://www.codechef.com/practice-old) - [profile](https://www.codechef.com/users/yosuanicolaus)
 
 #### Math-like
