@@ -56,6 +56,7 @@ Repository to track my solutions to competitive programming problems.
 - [Discrete Mathematics (book)](https://discrete.openmathbooks.org/dmoi3.html)
 - [Runestone](https://runestone.academy/)
 - [The Ultimate Topic List](https://youkn0wwho.academy/topic-list)
+- [TheScrasse's Roadmap](https://drive.google.com/file/d/16Jydn250Ue7K7hOfzLxw4p5jFF4ZCqWT/view) - [(source)](https://codeforces.com/blog/entry/111099)
 
 #### Tools
 
